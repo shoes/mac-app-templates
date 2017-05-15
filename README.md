@@ -7,7 +7,7 @@ the JDK downloads are only kept around as releases to keep the size down.
 
 The general process for revising a package is:
 
-* Make updats as necessary in `mac-app-template`
+* Make updates as necessary in `mac-app-template`
 * Run `./build.rb 0.0.1` with your desired version number
 * Upload resulting zipfile to a new release
 * Upload a compatible `jdk.zip` alongside (can reuse from prior releases if
