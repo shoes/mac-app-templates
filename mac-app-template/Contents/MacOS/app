@@ -23,4 +23,4 @@ if [ $? != 0 ]; then
   COMMAND=$JAVA_HOME/bin/java
 fi
 
-$COMMAND -XstartOnFirstThread -jar $DIR/../Java/app.jar
+$COMMAND -XstartOnFirstThread -jar "$DIR/../Java/app.jar"
